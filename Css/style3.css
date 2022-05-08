@@ -1,0 +1,63 @@
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(img4.jpg);
+    background-size: cover;
+    background-position: center;
+}
+div{
+    width: 400px;
+    height: 500px;
+    border-radius: 25px;
+    border: 2px solid rgb(134, 133, 133);
+    background-position: center;
+
+}
+ div{
+     backdrop-filter: blur(15px);
+     box-shadow: 0px 0px 50px 5px rgb(139, 137, 137) ;
+
+ }
+img{
+     display: inline-flex;
+    flex-direction: row-reverse;
+    height: 10%;
+}
+h1{
+    background-position: center;
+}
+input{
+    background-position: center;
+}
+h2{
+    font-size: 150%;
+}
+#text{
+    border-radius: 10px;
+    width: 350px;
+    height: 25px;
+    background-color: rgb(155, 155, 238);
+}
+#password{
+    border-radius: 10px;
+    width: 350px;
+    height: 25px;
+    background-color: rgb(155, 155, 238);
+}
+#button{
+    border-radius: 10px;
+    width: 120px;
+    height: 40px;
+    background-color: rgb(17, 0, 114);
+    color: wheat;
+    
+}
+#button:hover{
+    background-color: rgb(124, 133, 206);
+    color: aliceblue;
+}
+h3{
+    color: rgb(11, 206, 28);
+}

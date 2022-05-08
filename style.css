@@ -1,0 +1,82 @@
+body{
+    width: 99%;
+    height: 100vh;
+    background-image:  url(img2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.body, h1, h2, h3, p, ul{
+    margin: 0;
+    padding: 0;
+    
+}
+#boshqaruv{
+    background-color: rgb(3, 3, 83);
+    border-bottom: 5px solid red;
+}
+#boshqaruv h2{
+    color: aliceblue;
+    font-family: sans-serif;
+    padding: 15px 0;
+    display: inline-block;
+}
+#boshqaruv .bosh{
+    color: #2eff58;
+
+}
+.son{
+    float: right;
+}
+.son li{
+    display: inline;
+}
+.son li a{
+    text-decoration: none;
+    color: aliceblue;
+    font-family: sans-serif;
+    padding: 14px;
+    display: inline-block;
+}
+.blok{
+    width: 70%;
+    margin: auto;
+}
+.son li a:hover{
+    width: auto;
+    color: red;
+}
+.quti{
+    margin-top: 100px;
+    text-align: center;
+    color: #3c0299;
+}
+div button{
+    width: 200px;
+    height: 60px;
+    font-size: 20px;
+    color: #fa4659;
+    background: transparent;
+    border: 4px solid #6d6a6a;
+    border-radius: 20px;
+    margin-right: 20px;
+}
+div button{
+    background: #010142;
+    color: rgb(255, 255, 255);
+    transition: 0.5s;
+}
+div button:hover{
+    border-color: rgb(255, 255, 255);
+}
+li:hover{
+    border-color: blue;
+}
+.e {
+    color: aliceblue;
+    text-align: center;
+    margin-top: 150px;
+}
+h1{
+    font-size: 80px;
+    color: #02025f;
+}
